@@ -12,9 +12,14 @@ Before using the `CodeGPTNode` with ComfyUI, ensure you have an account with Cod
 
 To integrate the `CodeGPTNode` into your ComfyUI workflow:
 
-1. Add the `CodeGPTNode` to your workflow within ComfyUI.
-2. Configure the node by entering the API key, organization ID, and agent ID into the designated fields in the node's settings.
-3. Save the configuration to securely store your credentials within ComfyUI.
+1. Clone this repo into the ComfyUI custom-nodes folder 
+
+```git clone  https://github.com/makeratl/comfyuiai.git```
+
+2. Start ComfyUI.
+3. Add the `CodeGPTNode` to your workflow within ComfyUI.
+4. Configure the node by entering the API key, organization ID, and agent ID into the designated fields in the node's settings.
+5. Save the configuration to securely store your credentials within ComfyUI.
 
 The output from the `CodeGPTNode` will be a text prompt that you can pass into the image generation process as part of your workflow.
 
